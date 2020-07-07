@@ -1,0 +1,14 @@
+class Employee
+
+Attributes:
+  ratePerHour (float)
+  maritalStatus (string)
+  skills (array)
+  isAvailable (boolean)
+
+Methods:
+
+  getPromotion (add 0.5 to ratePerHour)
+  changeMaritalStatus (changes maritalStatus)
+  learnSkill (adds extra learned skill)
+  checkAvailability (checks isAvailable to cover a shift)

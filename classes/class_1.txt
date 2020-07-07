@@ -1,0 +1,13 @@
+class Food
+
+Attributes:
+  priceOriginal (integer)
+  menu (array)
+  type (string)
+  ingredients (array)
+
+Methods:
+  getDiscountPrice (subtract from priceOriginal a discounted priceOriginal by .2)
+  addMenuItem (adds a new dish to a menu array)
+  changeType (changes type of the dish)
+  removeIngredient (removes one item from the array of ingredients)

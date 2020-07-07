@@ -1,0 +1,12 @@
+var food = "omelette";
+var is_delicious = true;
+
+var food = "french toast";
+var num2 = 3;
+var num7 = 5;
+var quotient = num2 + num7;
+
+var songs = ["Take on me", "Beat It"];
+songs.shift();
+
+var numberOfChar = food.length;

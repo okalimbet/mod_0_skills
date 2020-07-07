@@ -1,0 +1,14 @@
+Object: JohnRoberts
+
+Attributes:
+  ratePerHour: 16.5
+  maritalStatus: "Single"
+  skills: ["Open Minded", "Punctual", "Positive"]
+  isAvailable: true
+
+Methods:
+
+  getPromotion: ratePerHour + 0.5 = 17.0
+  changeMaritalStatus: maritalStatus = "Married"
+  learnSkill: ["Open Minded", "Punctual", "Positive", "Organized"]
+  checkAvailability: isAvailable = true

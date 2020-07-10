@@ -1,13 +1,13 @@
-Object: BreakfastMenu
+Object: Omelette
 
 Attributes:
   priceOriginal: 8
-  menu: ["Omelette", "French Toast"]
-  type: "Breakfast"
-  ingredients: ["Eggs", "Bacon", "Onion", "Bread"]
+  caloriesTotal: 200
+  typeOfMeal: "Breakfast"
+  ingredients: ["Eggs", "Bacon", "Onion"]
 
 Methods:
   getDiscountPrice: 8 - (8 * .2) = 6.4
-  addMenuItem: ["Omelette", "French Toast", "Grilled Cheese Sandwich"]
-  changeType: type = "Dinner"
-  removeIngredient: ["Eggs", "Onion", "Bread"]
+  convertToKilocalories: 200 * .001 = .2
+  changeTypeOfMeal: type = "Dinner"
+  removeIngredient: ["Eggs", "Onion"]

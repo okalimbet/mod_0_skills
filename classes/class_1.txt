@@ -2,12 +2,12 @@ class Food
 
 Attributes:
   priceOriginal (integer)
-  menu (array)
-  type (string)
+  caloriesTotal (integer)
+  typeOfMeal (string)
   ingredients (array)
 
 Methods:
-  getDiscountPrice (subtract from priceOriginal a discounted priceOriginal by .2)
-  addMenuItem (adds a new dish to a menu array)
-  changeType (changes type of the dish)
+  getDiscountPrice (subtract a priceOriginal multiplied by .2 from priceOriginal)
+  convertToKilocalories (convert caloriesTotal to kilocalories)
+  changeTypeOfMeal (changes category of the typeOfMeal)
   removeIngredient (removes one item from the array of ingredients)
